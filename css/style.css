@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+.ls-primary-bg {
+    background-color: #B68C5A !important;
+}
+
+.ls-primary-color {
+    color: #B68C5A !important;
+}
+
+.ls-text-dark2 {
+    color: #414040;
+}
+
+.ls-text-dark3 {
+    color: #707070;
+}
+
+.ls-text-dark-6 {
+    color: #E7E7E7;
+}
+
+.ls-bg-dark7 {
+    background-color: #D9D9D9;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #D9D9D9;
+}
+
+.accordion-button.collapsed::after {
+    background: url(../images/plus-math-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background: url(../images/subtract-30.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accordion-button:focus {
+    color: #414040;
+}
+.carousel-image-1{
+    background-image: url(../images/law-justice.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.carousel-image-2{
+    background-image: url(../images/lady-justice.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.carousel-image-3{
+    background-image: url(../images/judges-gavel.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+@media screen and (max-width: 945px) {
+    .carousel-image-1, .carousel-image-2 , .carousel-image-3{
+        height: 50vh;
+    }
+}
